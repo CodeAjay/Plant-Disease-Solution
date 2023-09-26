@@ -1,0 +1,55 @@
+# Dependency directories
+node_modules
+ios/Pods/
+android/.gradle/
+android/build/
+android/app/build/
+
+# Compiled files
+*.log
+*.pot
+*.pyc
+*.swp
+*.lock
+*.DS_Store
+
+# Debugging
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Generated files
+metro-*/src/**/*.js
+# metro-cache/
+
+# macOS
+.vscode/
+*.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+/local.properties
+**/local.properties
+
+# IOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+ios/*.xcodeproj/xcuserdata/
+
+# Editor and IDE files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.swp
+*~
